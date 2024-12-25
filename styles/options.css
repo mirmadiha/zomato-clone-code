@@ -1,0 +1,22 @@
+.options{
+    display:flex;
+    flex-direction:row;
+}
+
+.option{
+    width:100%;
+    flex:1;
+    height:24rem;
+}
+
+.image{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+.image img{
+    height:100%;
+    width:100%;
+    object-fit:cover
+}
