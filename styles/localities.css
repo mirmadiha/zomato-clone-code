@@ -1,0 +1,135 @@
+.localities{
+    margin-bottom:10rem;
+}
+.city{
+    font-weight:500;
+    font-size: 3.6rem;
+}
+.localities .heading p{
+    margin:0px;
+    color: rgb(54, 54, 54);
+    font-size: 3.6rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.localities .heading{
+    margin-bottom: 4rem;
+    text-align: center;
+    display: flex
+}
+
+.text .locality-name{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    margin: 0px 0px 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text .locality-places{
+    font-size: 1.75rem;
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(54, 54, 54);
+}
+.locality svg{
+    line-height: 1;
+    width: 15px;
+    height: 15px;
+}
+.locality .text{
+    width: calc(100% - 3.5rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.locality{
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    flex:1;
+
+}
+.locality-row1 .locality-box{
+    position: relative;
+    width: 100%;
+    flex:1;
+    padding: 0px 10px 15px 0px;
+}
+
+.locality-row2 .locality-box{
+    position: relative;
+    width: 100%;
+    flex:1;
+    padding:0px 5px 15px;
+}
+
+.locality-row3 .locality-box{
+    position: relative;
+    width: 100%;
+    flex:1;
+    padding: 0px 0px 15px 10px;
+}
+
+.localities-list{
+    display:flex;
+    width:100%;
+}
+
+.locality-row1{
+    flex:1;
+    width:100%;
+}
+.locality-row2{
+    flex:1;
+    width:100%;
+}
+.locality-row3{
+    flex:1;
+    width:100%;
+}
+.see-text{
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.see-locality{
+    width: inherit;
+    height: 7.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+.see-locality-box{
+    width: 100%;
+    flex:1;
+    padding: 0px 10px 15px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-locality svg{
+    line-height: 1;
+    width: 15px;
+    height: 15px;
+}
