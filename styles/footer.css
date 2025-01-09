@@ -16,12 +16,18 @@ footer{
 
 .top-section{
     justify-content: space-between;
+    align-items:center;
+    margin-bottom:4rem;
+    width:100%;
 }
 
 .top-section img{
     height:2.8rem;
     width:13.2rem;
-    margin-bottom:4rem;
+}
+
+.top-section .dropdowns{
+    gap:10px;
 }
 
 .top-section .dropdown{
@@ -45,12 +51,12 @@ footer{
 .top-section .dropdown img{
     height:3rem;
     width:auto;
-    margin:0;
 }
 
 .middle-section{
     width:100%;
     display:flex;
+    justify-content: space-between;
 }
 
 .footer-links{
@@ -87,11 +93,47 @@ footer{
   }
 
   .middle-section .column .footer-links{
-    max-width:fill-content;
+    max-width:fit-content;
   }
 
   .middle-section .socials {
     gap:10px;
     margin:1rem 0;
   }
+
+.socials li i{
+    background-color:black;
+    color:white;
+    padding:0.5rem;
+    border-radius:100%;
+    width:2.2rem;
+    height:2.2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
   
+.footer-links .buttons img{
+    width:13.7rem;
+    height:4rem;
+}
+
+.footer-links .buttons{
+    gap:5px;
+}
+
+footer hr{
+    margin-top:5rem;
+    border-top:  1px solid rgb(207 207 207);
+}
+
+.end-section{
+    font-size:1.3rem;
+    color:rgb(79 79 79);
+    line-height:1.7rem;
+    margin-top:2.3rem;
+}
+.footer-links .socials ul{
+    gap:10px;
+}
+
