@@ -132,7 +132,7 @@ input[type="email"]{
 @media(max-width:800px){
 
     .app-section{
-        padding:0 1rem;
+        /* padding:0 1rem; */
         width:100%;
     }
     .mobile{
@@ -146,6 +146,6 @@ input[type="email"]{
     }
     .app-section .get-app{
         width:100%;
-        
+        margin: 0px 2.4rem!important;
     }
 }

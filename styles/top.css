@@ -62,6 +62,7 @@ main .top .city{
 
 main .top .search-container input{
     border:none;
+    outline:none;
 }
 
 main .top .search-container .location{
