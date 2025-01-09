@@ -77,6 +77,10 @@ main .top .search-container .location svg{
     color: rgb(255,126,139);
 }
 
+main .top .search-container .location .chevron{
+    color: rgb(136,136,136);
+}
+
 main .top .search-container .line{
     width:0rem;
     height:2rem;
@@ -108,4 +112,50 @@ main .top .search-container .search .search-icon svg{
 main .top .search-container .search input{
     font-size: 1.4rem;
     width:100%;
+}
+
+@media (max-width:800px){
+    .main-logo{
+        height:3rem!important;
+        width:16rem!important;
+        position:relative;
+    }
+
+    main .top .search-container{
+        flex-direction:column!important;
+        width:calc(100% - 2.4rem)!important;
+    }
+
+    main .top .search-container .location{
+        /* margin-top: 1.2rem;
+        margin-bottom: 0.8rem; */
+        padding: 1.5rem 1rem;
+        justify-content: space-between;
+        align-items:center;
+        width: 100% !important;
+        gap: 2rem;
+        height: 5rem;
+    }
+    
+
+    main .search-container .location input {
+        flex: 1;
+      }
+
+    main .search-container .search {
+        margin-top: 1.8rem;
+        background-color: white;
+        padding: 1.5rem 1rem;
+        width: 100%!important;
+        justify-content: space-between;
+        border-radius:0.8rem;
+      }
+
+      main .search-container .search .search-icon {
+        width: fit-content!important;
+      }
+    
+      main .search-container .search input {
+        margin-left: 1.5rem;
+      }
 }

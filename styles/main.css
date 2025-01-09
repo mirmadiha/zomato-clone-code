@@ -4,3 +4,9 @@
     max-height: initial;
     margin: 0px auto;
 }
+
+@media (max-width:800px){
+    .main-body {
+        padding: 0px 2.4rem;
+    }
+}

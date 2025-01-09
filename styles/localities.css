@@ -133,3 +133,26 @@
     width: 15px;
     height: 15px;
 }
+
+@media (max-width:800px){
+    .localities-list{
+        flex-direction:column;
+    }
+
+    .locality{
+        width:100%;
+    }
+    .localities .heading .title {
+        font-weight: 500!important;
+        font-size: 1.8rem!important;
+        line-height: 2.4rem!important;
+        margin-bottom: 2rem!important;
+    }
+
+    .localities .heading .city{
+        font-weight: 500!important;
+        font-size: 1.8rem!important;
+        line-height: 2.4rem!important;
+        margin-bottom: 2rem!important;
+    }
+}

@@ -70,7 +70,7 @@ footer{
 .footer-links ul{
     list-style:none;
 }
-.heading-6{
+footer .heading-6{
     font-size:1.4rem;
     letter-spacing:0.2rem;
     text-transform: uppercase;
@@ -135,5 +135,34 @@ footer hr{
 }
 .footer-links .socials ul{
     gap:10px;
+}
+
+@media(max-width:800px){
+    .footer-data{
+        padding:4.8rem 2.4rem 2.2rem;
+    }
+
+    .socials{
+        display:none;
+    }
+
+    footer .top-section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer .top-section img {
+        margin-bottom: 3rem;
+    }
+
+    footer .row{
+        flex-wrap:wrap;
+    }
+
+    .middle-section .footer-links {
+        max-width: 50%;
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+    }
 }
 
