@@ -67,15 +67,22 @@
     padding-right: 1.6rem;
     font-size:1.8rem;
     width:100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+}
+
+.overlay-title{
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
 }
 .places{
     font-size:1.4rem;
     margin:0.3px 0px 1px;
     display:flex;
     align-items: center;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+
 }
 
 @media (max-width:800px){
@@ -103,12 +110,24 @@
     }
 
     .collections-list{
+        justify-content: space-between;
         flex-wrap:wrap;
+        gap:10px;
     }
 
     .collection{
-        max-width:45%;
-        height:17.7rem;
+        max-width:48.3%;
+        height:17rem;
+   }
+
+   .collection .image{
+    max-width:100%;
+    max-height:100%;
+   }   
+
+   .collection .image img{
+    width:100%;
+    height:100%;
    }
 
 }

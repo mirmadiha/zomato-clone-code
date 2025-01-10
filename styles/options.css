@@ -61,6 +61,8 @@
 @media (max-width:800px){
     .options{
         flex-wrap:wrap;
+        align-items:center;
+        justify-content: space-between;
     }
 
     .option{

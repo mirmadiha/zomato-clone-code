@@ -157,12 +157,18 @@ footer hr{
 
     footer .row{
         flex-wrap:wrap;
+        width:100%;
     }
 
     .middle-section .footer-links {
-        max-width: 50%;
+        max-width: 48%;
         margin-bottom: 3rem;
         font-size: 1.6rem;
     }
+
+    .footer-links .buttons{
+        flex-direction: row;
+    }
+
 }
 
