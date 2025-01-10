@@ -144,6 +144,10 @@ input[type="email"]{
         max-width: 42.4rem!important;
         margin: 0px 2.4rem!important;
     }
+
+    .app-options{
+        align-items:center;
+    }
     .app-section .get-app{
         width:100%;
         margin: 0px 2.4rem!important;
