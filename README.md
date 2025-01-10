@@ -62,13 +62,13 @@ Include the following in the `<head>` section of your HTML file to use Open Sans
 ### Home Page (Top Section)
 
 #### Desktop View
-![Home Page Desktop View](assets/images/homepage-desktop.jpg)
+![Home Page Desktop View](assets/images/homepage-desktop.JPG)
 
 #### Tablet View
-![Home Page Tablet View](assets/images/homepage-tablet.jpg)
+![Home Page Tablet View](assets/images/homepage-tablet.JPG)
 
 #### Mobile View
-![Home Page Mobile View](assets/images/homepage-mobile.jpg)
+![Home Page Mobile View](assets/images/homepage-mobile.JPG)
 
 ## Limitations
 
